@@ -51,7 +51,7 @@ $$
 # 涉及同余的相关题目
 
 ### 和能被整除（当存在负数时要用一般的取模公式）
-- [和可以被 $k$ 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k/description/)
-- [使得数组和能被 $p$ 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/)
+- [和可以被 $ k $ 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k/description/)
+- [使得数组和能被 $ p $ 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/)
 
 ### 长度能被整除 

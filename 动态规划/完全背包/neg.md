@@ -50,23 +50,22 @@ func max(x, y int) int {
 考虑状态转移方程
 
 $$
-f_{i,j} = max(f_{i-1,j}, f_{i-1,j-v_{i}} + w_{i}, f_{i-1,j-2v_{i}} + 2w_{i}, \cdots) \\
+f_{i,j} = \max(f_{i-1,j}, f_{i-1,j-v_{i}} + w_{i}, f_{i-1,j-2v_{i}} + 2w_{i}, \cdots) \\
 
-f_{i,j-v_{i}} = max(f_{i-1,j-v_{i}}, f_{i-1,j-2v_{i}} + w_{i}, \cdots)
+f_{i,j-v_{i}} = \max(f_{i-1,j-v_{i}}, f_{i-1,j-2v_{i}} + w_{i}, \cdots)
 $$
 
 可以发现
 
 $$
-f_{i,j} = max(f_{i-1,j}, f_{i,j-v_{i}} + w_{i})
-
+f_{i,j} = \max(f_{i-1,j}, f_{i,j-v_{i}} + w_{i})
 $$
 
 因此我们可以用这个转移方程来优化时间复杂度，这样就不需要枚举第 $i$ 个物品选几个了
 
 优化代码如下：
 
-```
+``` go
 package main
 
 import "fmt"

@@ -50,8 +50,9 @@ func max(x, y int) int {
 考虑状态转移方程
 
 $$
-f_{i,j} = \max(f_{i-1,j}, f_{i-1,j-v_{i}} + w_{i}, f_{i-1,j-2v_{i}} + 2w_{i}, \cdots) \\
-
+f_{i,j} = \max(f_{i-1,j}, f_{i-1,j-v_{i}} + w_{i}, f_{i-1,j-2v_{i}} + 2w_{i}, \cdots)
+$$
+$$
 f_{i,j-v_{i}} = \max(f_{i-1,j-v_{i}}, f_{i-1,j-2v_{i}} + w_{i}, \cdots)
 $$
 

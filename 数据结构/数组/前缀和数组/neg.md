@@ -25,3 +25,4 @@ $$
 
 # 涉及前缀和的相关题目
 - [特殊数组II](https://leetcode.cn/problems/special-array-ii/description/)
+- [货舱选址](https://www.acwing.com/problem/content/description/106/) 也可以用中位数贪心解决

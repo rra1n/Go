@@ -107,3 +107,11 @@ func max(x, y int) int {
 ```
 
 这样时间复杂度就被降低到 $O(n^2)$ 了
+
+# 相关习题
+## 求方案数
+- [零钱兑换](https://leetcode.cn/problems/coin-change-ii/description/)
+
+## 求最值
+
+## 求具体方案

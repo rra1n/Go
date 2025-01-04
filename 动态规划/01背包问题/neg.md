@@ -54,3 +54,7 @@ func max(x, y int) int {
 ```
 
 上述代码的时间复杂度为 $O(n^2)$
+
+# 相关习题
+- [采药](https://www.luogu.com.cn/problem/P1048)
+- [装箱问题](https://www.luogu.com.cn/problem/P1049)

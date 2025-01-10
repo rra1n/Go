@@ -60,3 +60,4 @@ func max(x, y int) int {
 # 相关习题
 - [采药](https://www.luogu.com.cn/problem/P1048)
 - [装箱问题](https://www.luogu.com.cn/problem/P1049)
+- [和为目标值的最长子序列](https://leetcode.cn/problems/length-of-the-longest-subsequence-that-sums-to-target/)

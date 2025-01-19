@@ -84,6 +84,7 @@ func strStr(s string, t string) int {
     }
     return -1
 }
-
-
 ```
+
+# 相关习题
+- [最长公共连续子序列](https://www.acwing.com/problem/content/description/3695/) 要求 $O(nlogn)$ 做法

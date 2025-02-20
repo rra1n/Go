@@ -115,5 +115,5 @@ func max(x, y int) int {
 - [零钱兑换](https://leetcode.cn/problems/coin-change-ii/description/)
 
 ## 求最值
-
+- [疯狂的采药](https://www.luogu.com.cn/problem/P1616)
 ## 求具体方案

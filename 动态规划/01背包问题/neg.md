@@ -61,3 +61,5 @@ func max(x, y int) int {
 - [采药](https://www.luogu.com.cn/problem/P1048)
 - [装箱问题](https://www.luogu.com.cn/problem/P1049)
 - [和为目标值的最长子序列](https://leetcode.cn/problems/length-of-the-longest-subsequence-that-sums-to-target/) [题解](https://leetcode.cn/problems/length-of-the-longest-subsequence-that-sums-to-target/solutions/3044020/01bei-bao-wen-ti-chao-xiang-xi-jiang-jie-u8ty)
+- [严格单调递增快乐分组](https://sunnywhy.com/problem/10066)
+- [Vitamin Balance](https://atcoder.jp/contests/abc390/tasks/abc390_e)
